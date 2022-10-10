@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProductCatalog>
+<FitnessCatalog>
+<fitnesswatch id="fit1">
+        <name>Fitbitversa</name>
+        <price>69.99</price>
+        <image>fit1.png</image>
+        <manufacturer>Fitbit</manufacturer>
+        <condition>Refurbished</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+
+<fitnesswatch id="fit2">
+        <name>Fitbitultra</name>
+        <price>79.99</price>
+        <image>fit2.png</image>
+        <manufacturer>Fitbit</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+
+
+
+<fitnesswatch id="fit3">
+        <name>Fitbit2</name>
+        <price>89.99</price>
+        <image>fit3.png</image>
+        <manufacturer>Fitbit</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+
+<fitnesswatch id="fit4">
+        <name>Fitbit2pro</name>
+        <price>99.99</price>
+        <image>fit4.png</image>
+        <manufacturer>Fitbit</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+
+
+
+<fitnesswatch id="fit5">
+        <name>Fitbit3</name>
+        <price>88.99</price>
+        <image>fit5.png</image>
+        <manufacturer>Fitbit</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="polar1">
+        <name>Polar1</name>
+        <price>79.99</price>
+        <image>polar1.png</image>
+        <manufacturer>Polar</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="polar2">
+        <name>Polar2</name>
+        <price>69.99</price>
+        <image>polar2.png</image>
+        <manufacturer>Polar</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="polar3">
+        <name>Polar3</name>
+        <price>79.99</price>
+        <image>polar3.png</image>
+        <manufacturer>Polar</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="polar4">
+        <name>Polar4</name>
+        <price>79.99</price>
+        <image>polar4.png</image>
+        <manufacturer>Polar</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="polar5">
+        <name>Polar5</name>
+        <price>49.99</price>
+        <image>polar5.png</image>
+        <manufacturer>Polar</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="apple1">
+        <name>Apple1</name>
+        <price>89.99</price>
+        <image>apple1.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="apple2">
+        <name>Apple2</name>
+        <price>89.99</price>
+        <image>apple2.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="apple3">
+        <name>Apple3</name>
+        <price>79.99</price>
+        <image>apple3.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="apple4">
+        <name>Apple4</name>
+        <price>69.99</price>
+        <image>apple4.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="apple5">
+        <name>Apple5</name>
+        <price>49.99</price>
+        <image>apple5.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="garmin1">
+        <name>Garmin1</name>
+        <price>99.99</price>
+        <image>garmin1.png</image>
+        <manufacturer>Garmin</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="garmin2">
+        <name>Garmin2</name>
+        <price>59.99</price>
+        <image>garmin2.png</image>
+        <manufacturer>Garmin</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="garmin3">
+        <name>Garmin3</name>
+        <price>69.99</price>
+        <image>garmin3.png</image>
+        <manufacturer>Garmin</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="garmin4">
+        <name>Garmin4</name>
+        <price>59.99</price>
+        <image>garmin4.png</image>
+        <manufacturer>Garmin</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="garmin5">
+        <name>Garmin5</name>
+        <price>99.99</price>
+        <image>garmin5.png</image>
+        <manufacturer>Garmin</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="amazfit1">
+        <name>Amazfit1</name>
+        <price>89.99</price>
+        <image>amazfit1.png</image>
+        <manufacturer>Amazfit</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="amazfit2">
+        <name>Amazfit2</name>
+        <price>19.99</price>
+        <image>amazfit2.png</image>
+        <manufacturer>Amazfit</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="amazfit3">
+        <name>Amazfit3</name>
+        <price>89.99</price>
+        <image>amazfit3.png</image>
+        <manufacturer>Amazfit</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="amazfit4">
+        <name>Amazfit4</name>
+        <price>99.99</price>
+        <image>amazfit4.png</image>
+        <manufacturer>Amazfit</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+<fitnesswatch id="amazfit5">
+        <name>Amazfit5</name>
+        <price>99.99</price>
+        <image>amazfit5.png</image>
+        <manufacturer>Amazfit</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</fitnesswatch>
+</FitnessCatalog>
+<SmartWatchesCatalog>
+<smartwatch id="w1">
+        <name>Apple1</name>
+        <price>99.99</price>
+        <image>apple1.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+<smartwatch id="w2">
+        <name>Apple2</name>
+        <price>99.99</price>
+        <image>apple2.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>Refurbished</condition>
+        <discount>15.0</discount>
+</smartwatch>
+<smartwatch id="ap1">
+        <name>Apple3</name>
+        <price>199.99</price>
+        <image>apple3.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+<smartwatch id="ap2">
+        <name>Apple4</name>
+        <price>399.99</price>
+        <image>apple4.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>Refurbished</condition>
+        <discount>15.0</discount>
+</smartwatch>
+<smartwatch id="ap3">
+        <name>Apple5</name>
+        <price>169.99</price>
+        <image>apple5.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+<smartwatch id="w3">
+        <name>Fossil1</name>
+        <price>99.99</price>
+        <image>fossil1.png</image>
+        <manufacturer>Fossil</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+<smartwatch id="w4">
+        <name>Fossil2</name>
+        <price>89.99</price>
+        <image>fossil2.png</image>
+        <manufacturer>Fossil</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+
+<smartwatch id="w6">
+        <name>Fossil4</name>
+        <price>89.99</price>
+        <image>fossil4.png</image>
+        <manufacturer>Fossil</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+<smartwatch id="w7">
+        <name>Fossil5</name>
+        <price>89.99</price>
+        <image>fossil5.png</image>
+        <manufacturer>Fossil</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+
+<smartwatch id="samsung2">
+        <name>Samsung2</name>
+        <price>89.99</price>
+        <image>samsung2.png</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+<smartwatch id="samsung3">
+        <name>Samsung2pro</name>
+        <price>99.99</price>
+        <image>samsung3.png</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+<smartwatch id="samsung4">
+        <name>Samsung3</name>
+        <price>89.99</price>
+        <image>samsung4.png</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+<smartwatch id="samsung5">
+        <name>Samsung4</name>
+        <price>89.99</price>
+        <image>samsung5.png</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+<smartwatch id="titan1">
+        <name>Titan1</name>
+        <price>99.99</price>
+        <image>titan1.png</image>
+        <manufacturer>Titan</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+<smartwatch id="titan2">
+        <name>Titan1pro</name>
+        <price>189.99</price>
+        <image>titan2.png</image>
+        <manufacturer>Titan</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+<smartwatch id="titan3">
+        <name>Titan2</name>
+        <price>199.99</price>
+        <image>titan3.png</image>
+        <manufacturer>Titan</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+
+<smartwatch id="titan5">
+        <name>Titan3</name>
+        <price>99.99</price>
+        <image>titan5.png</image>
+        <manufacturer>Titan</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+<smartwatch id="lg1">
+        <name>Lg1123</name>
+        <price>99.99</price>
+        <image>lg1.png</image>
+        <manufacturer>Lg</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+<smartwatch id="lg2">
+        <name>Lg223</name>
+        <price>199.99</price>
+        <image>lg2.png</image>
+        <manufacturer>Lg</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+<smartwatch id="lg3">
+        <name>Lg3965</name>
+        <price>99.99</price>
+        <image>lg3.png</image>
+        <manufacturer>Lg</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+<smartwatch id="lg4">
+        <name>Lg456</name>
+        <price>99.99</price>
+        <image>lg4.png</image>
+        <manufacturer>Lg</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+<smartwatch id="lg5">
+        <name>Lg556</name>
+        <price>199.99</price>
+        <image>lg5.png</image>
+        <manufacturer>Lg</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</smartwatch>
+</SmartWatchesCatalog>
+
+<HeadPhoneCatalog>
+<headphone id="h1">
+        <name>JBL123</name>
+        <price>99.99</price>
+        <image>jbl1.png</image>
+        <manufacturer>JBL</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</headphone>
+<headphone id="h2">
+        <name>Sony456</name>
+        <price>9.99</price>
+        <image>sony2.png</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>Refurbished</condition>
+        <discount>15.0</discount>
+</headphone>
+
+<headphone id="h9">
+        <name>Sony123</name>
+        <price>99.99</price>
+        <image>sony1.png</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</headphone>
+
+<headphone id="h10">
+        <name>JBL123pro</name>
+        <price>399.99</price>
+        <image>jbl2.png</image>
+        <manufacturer>JBL</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</headphone>
+</HeadPhoneCatalog>
+
+<PhoneCatalog>
+    <phone id="nexus">
+        <name>Nexus9</name>
+        <price>299.99</price>
+        <image>phone3.png</image>
+        <manufacturer>Google</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+    </phone>
+    <phone id="iphone6">
+        <name>Iphone 6</name>
+        <price>399.99</price>
+        <image>phone4.png</image>
+        <manufacturer>Iphone</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+    </phone>
+    <phone id="iphone7">
+        <name>Iphone 7</name>
+        <price>599.99</price>
+        <image>phone5.png</image>
+        <manufacturer>Iphone</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+    </phone>
+
+    <phone id="sony">
+        <name>Sony Xperia Z</name>
+        <price>499.99</price>
+        <image>phone7.png</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+    </phone>
+
+    <phone id="xperia">
+        <name>Xperia C23</name>
+        <price>199.99</price>
+        <image>phone8.png</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+    </phone>
+
+</PhoneCatalog>
+
+<LaptopCatalog>
+<laptop id="HP">
+      <name>HP1</name>
+      <price>499.99</price>
+      <image>laptop2.png</image>
+      <manufacturer>HP</manufacturer>
+      <condition>New</condition>
+      <discount>10.0</discount>
+
+  </laptop>
+    <laptop id="asus">
+        <name>Asus1</name>
+        <price>419.99</price>
+        <image>laptop3.png</image>
+        <manufacturer>Asus</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+
+    </laptop>
+
+    <laptop id="dell">
+        <name>Dell1</name>
+        <price>269.99</price>
+        <image>laptop1.png</image>
+        <manufacturer>Dell</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+		<accessories>
+            <accessory>lap1</accessory>
+		</accessories>
+      
+    </laptop>
+
+    <laptop id="Dell_1">
+        <name>Dell2</name>
+        <price>259.99</price>
+        <image>laptop2.png</image>
+        <manufacturer>Dell</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+
+    </laptop>
+	
+	
+	
+
+</LaptopCatalog>
+
+<VoiceAssistantCatalog>
+<voiceassistant id="v1">
+        <name>Google1</name>
+        <price>89.99</price>
+        <image>google1.png</image>
+        <manufacturer>Google</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</voiceassistant>
+<voiceassistant id="v2">
+        <name>Google2</name>
+        <price>169.99</price>
+        <image>google2.png</image>
+        <manufacturer>Google</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+</voiceassistant>
+
+<voiceassistant id="v3">
+        <name>Echo</name>
+        <price>169.99</price>
+        <image>echo.png</image>
+        <manufacturer>Amazon</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+</voiceassistant>
+
+<voiceassistant id="v4">
+        <name>Echo2</name>
+        <price>199.99</price>
+        <image>echo2.png</image>
+        <manufacturer>Amazon</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+</voiceassistant>
+
+<voiceassistant id="v5">
+        <name>cortana</name>
+        <price>699.99</price>
+        <image>cortana.png</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+</voiceassistant>
+
+</VoiceAssistantCatalog>
+
+
+
+<PetTrackerCatalog>
+
+<pettracker id="p1">
+        <name>Air Tag</name>
+        <price>9.99</price>
+        <image>p1.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+</pettracker>
+<pettracker id="p2">
+        <name>FitBark2</name>
+        <price>69.99</price>
+        <image>p2.png</image>
+        <manufacturer>FitBark</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+</pettracker>
+
+<pettracker id="p3">
+        <name>Generic1</name>
+        <price>99.99</price>
+        <image>p3.png</image>
+        <manufacturer>Generic</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</pettracker>
+
+<pettracker id="p4">
+        <name>Generic2</name>
+        <price>199.99</price>
+        <image>p4.png</image>
+        <manufacturer>Generic</manufacturer>
+        <condition>New</condition>
+        <discount>25.0</discount>
+</pettracker>
+
+<pettracker id="p5">
+        <name>Generic3</name>
+        <price>299.99</price>
+        <image>p5.png</image>
+        <manufacturer>Generic</manufacturer>
+        <condition>New</condition>
+        <discount>0.0</discount>
+</pettracker>
+
+
+
+</PetTrackerCatalog>
+
+
+
+<VirtualRealityCatalog>
+<vrs id="vr1">
+        <name>HP1</name>
+        <price>89.99</price>
+        <image>hp.png</image>
+        <manufacturer>HP</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</vrs>
+<vrs id="vr2">
+        <name>HP2</name>
+        <price>169.99</price>
+        <image>hp2.png</image>
+        <manufacturer>HP</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+		</vrs>
+<vrs id="vr3">
+        <name>Sony1</name>
+        <price>169.99</price>
+        <image>sony1.png</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+		</vrs>	
+<vrs id="vr4">
+        <name>Sony2</name>
+        <price>199.99</price>
+        <image>sony2.png</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+		</vrs>
+		
+<vrs id="vr5">
+        <name>Meta1</name>
+        <price>299.99</price>
+        <image>meta1.png</image>
+        <manufacturer>Meta</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+		</vrs>
+<vrs id="vr6">
+        <name>Meta2</name>
+        <price>299.99</price>
+        <image>meta2.png</image>
+        <manufacturer>Meta</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+		</vrs>
+		
+</VirtualRealityCatalog>
+
+<AccessoryCatalog>
+
+<accessory id="lap1">
+        <name>Mouse</name>
+        <price>21.99</price>
+        <image>a1.png</image>
+        <manufacturer>Dell</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+     </accessory>
+
+
+</AccessoryCatalog>
+
+
+
+
+
+</ProductCatalog>
