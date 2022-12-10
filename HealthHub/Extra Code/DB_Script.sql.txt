@@ -1,0 +1,64 @@
+CREATE DATABASE `hmsspring2` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+
+CREATE TABLE `appointment` (
+  `id` bigint NOT NULL AUTO_INCREMENT,
+  `title` varchar(45) DEFAULT NULL,
+  `docid` varchar(45) DEFAULT NULL,
+  `pid` varchar(45) DEFAULT NULL,
+  `AppointmentDate` date DEFAULT NULL,
+  `pname` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+CREATE TABLE `department` (
+  `dep_id` bigint NOT NULL AUTO_INCREMENT,
+  `dep_name` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`dep_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `patient` (
+  `pid` bigint NOT NULL AUTO_INCREMENT,
+  `padd` varchar(255) DEFAULT NULL,
+  `pdob` varchar(255) DEFAULT NULL,
+  `pmobile` bigint DEFAULT NULL,
+  `pname` varchar(255) DEFAULT NULL,
+  `doc_id` bigint DEFAULT NULL,
+  `tid` bigint DEFAULT NULL,
+  PRIMARY KEY (`pid`),
+  KEY `FKcsxkcj2mvv8ddtcwhvsreoeun` (`doc_id`),
+  KEY `FKlp6gs42tikikelrwem03x4fb4` (`tid`),
+  CONSTRAINT `FKcsxkcj2mvv8ddtcwhvsreoeun` FOREIGN KEY (`doc_id`) REFERENCES `doctor` (`doc_id`),
+  CONSTRAINT `FKlp6gs42tikikelrwem03x4fb4` FOREIGN KEY (`tid`) REFERENCES `test` (`tid`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `roles` (
+  `role_id` mediumtext,
+  `name` varchar(20) DEFAULT NULL,
+  `id` bigint NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `specialization` (
+  `spec_id` bigint NOT NULL AUTO_INCREMENT,
+  `speciality` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`spec_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `user_roles` (
+  `user_id` bigint NOT NULL,
+  `role_id` bigint NOT NULL,
+  PRIMARY KEY (`user_id`,`role_id`),
+  CONSTRAINT `FKhfh9dx7w3ubf1co1vdev94g3f` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `users` (
+  `user_id` mediumtext,
+  `username` varchar(20) DEFAULT NULL,
+  `rolename` varchar(20) DEFAULT NULL,
+  `id` bigint NOT NULL AUTO_INCREMENT,
+  `password` varchar(120) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `UKr43af9ap4edm43mmtq01oddj6` (`username`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+

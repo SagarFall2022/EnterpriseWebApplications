@@ -1,0 +1,66 @@
+<div>
+
+  <mat-card>
+    <button mat-raised-button color="primary" routerLink="/find" style="float: left;" >
+          Home
+    
+      
+        </button>
+      
+        <button mat-raised-button color="primary" routerLink="/yelp_reviews_chart" >
+              Yelp Reviews Chart
+              &nbsp; &nbsp; &nbsp;
+          
+            </button>
+            <button mat-raised-button color="primary" routerLink="/map" style="float: left;" >
+              Map
+              &nbsp; &nbsp; &nbsp;
+            </button>
+
+    <br><br>
+
+    <mat-divider></mat-divider>
+    <br>
+    <table mat-table [dataSource]="places">
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef>Name</th>
+        <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="display_phone">
+        <th mat-header-cell *matHeaderCellDef>Phone</th>
+        <td mat-cell *matCellDef="let element"> {{element.display_phone}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="address1">
+        <th mat-header-cell *matHeaderCellDef>Address</th>
+        <td mat-cell *matCellDef="let element"> {{element.address1}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="is_closed">
+        <th mat-header-cell *matHeaderCellDef>Closed</th>
+        <td mat-cell *matCellDef="let element"> {{element.is_closed}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="rating">
+        <th mat-header-cell *matHeaderCellDef>Rating</th>
+        <td mat-cell *matCellDef="let element"> {{element.rating}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="review_count">
+        <th mat-header-cell *matHeaderCellDef>Review Count</th>
+        <td mat-cell *matCellDef="let element"> {{element.review_count}} </td>
+      </ng-container>
+
+
+      
+
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+    </table>
+    
+
+  </mat-card>
+</div>

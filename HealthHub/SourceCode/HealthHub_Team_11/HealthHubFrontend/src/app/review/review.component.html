@@ -1,0 +1,21 @@
+<div class="review">
+    <div>
+        <h2>Write Review</h2>
+    </div>
+    <form class="form-review" (ngSubmit)=onSubmit()>
+        <div class="mb-3">
+          <label for="DoctorName" class="form-label">Doctor Name:{{id}}</label>
+          
+        </div>
+        <div class="mb-3">
+          <label for="review" class="form-label">Review</label>
+          <textarea type="text" name="review" class="form-control" required placeholder="Enter Review"
+        [(ngModel)]="Review.review">
+          </textarea>
+         
+        </div>
+        <div class="submit-button">
+            <button class="btn btn-primary">{{btn}}</button>
+        </div>
+      </form>
+    </div>

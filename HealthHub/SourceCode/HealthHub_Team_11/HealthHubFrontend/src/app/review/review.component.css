@@ -1,0 +1,23 @@
+.review{
+    width:50%;
+    margin: auto;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.form-review{
+    font-weight: bold;
+    margin-top:10px;
+}
+
+h2{
+    color: rgb(39, 116, 146);
+    font-weight: bolder;
+    padding:4px;
+    display:flex;
+    justify-content: center;
+}
+.submit-button{
+    display:flex;
+    justify-content: center;
+}

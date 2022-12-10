@@ -1,0 +1,18 @@
+.image{
+    height:41.2em; background-size:cover; width:auto;
+    background-image:url('../../assets/Image/signin.jpg');
+    background-position:50% 50%;
+    position: relative;
+}
+.form-login{
+    position: absolute;
+    margin-top: 150px;
+}
+
+.username{
+    width: 350px;
+}
+
+.password{
+    width: 350px;
+}

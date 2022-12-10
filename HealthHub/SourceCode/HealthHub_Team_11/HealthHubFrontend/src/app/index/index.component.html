@@ -1,0 +1,54 @@
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid" id="container-fluid-id">
+    <a class="navbar-brand" routerLink="">HealthHub</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a *ngIf="isLoggedIn1()" class="nav-link active" style = "color: rgb(21, 150, 255);">Hello {{username}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="home" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Home</a>
+        </li>
+        <li class="nav-item">
+          
+            
+          <a class="nav-link active" routerLink="find" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">SearchbyZipcode</a>
+        </li>
+         <li> 
+          <a class="nav-link active" routerLink="finddoctor" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">SearchbyName</a>
+         
+        
+        </li>
+        <li class="nav-item">
+          <a *ngIf="! isLoggedIn1()" class="nav-link" routerLink="signup" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">SignUp</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="about" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">About</a>
+        </li>
+        <li class="nav-item">
+          <a *ngIf="! isLoggedIn1()" class="nav-link" routerLink="login" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Login</a>
+        </li>
+        <li class="nav-item">
+          <a *ngIf="isLoggedIn1()" class="nav-link" routerLink="login" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" (click)="logOut()">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- <header class="header">
+  <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+        <div class="menu">
+        <div class="title">
+          <h1><b>HEALTH HUB</b></h1>
+          <h6> Hospital Management System</h6></div>
+          <a (click)="logout()">Logout</a>
+          <a (click)="about()">About us</a>
+          <a (click)="contact()">Contact</a>
+          <a class="nav-link active" routerLink="home" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Home</a>
+          <a style = "color: rgb(21, 255, 157);">Hello {{ username }}</a> 
+        </div>
+</header> -->

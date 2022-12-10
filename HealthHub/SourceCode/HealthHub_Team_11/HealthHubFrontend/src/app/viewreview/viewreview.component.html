@@ -1,0 +1,30 @@
+<div class="column">
+    <div class="back">
+        <button routerLink='/finddoctor' mat-raised-button >Back</button>
+
+    </div>
+    <div class="total">
+        
+        <div style="padding-top:45px;">
+            <h4 style="color:rgb(155, 211, 230); font-weight: bold;">Doctor Name</h4>
+        </div>
+
+        
+    <div class="card">
+      <div class="container">
+        <h2 style="color:rgb(45, 98, 147); font-weight: bold;">{{data[0].title}}</h2>
+      </div>
+    </div>
+    <div style="padding-top:45px;">
+        <h4 style="color:rgb(155, 211, 230); font-weight: bold;">Reviews</h4>
+    </div>
+    <div class="card" *ngFor="let rev of data">
+        <div class="container">
+          
+          <p style="color:rgb(45, 98, 147); font-style: italic;">
+              "{{rev.description}}"
+          </p>
+        </div>
+      </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+.item{
+    position:relative;
+}
+.slogan{
+    position: absolute;
+    top: 10%;
+    color:rgb(25, 76, 119);
+    font-weight: bold;
+    width:30%;
+    margin-left:7%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}

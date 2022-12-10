@@ -1,0 +1,37 @@
+
+<!-- this creates a google map on the page with the given lat/lng from -->
+<!-- the component as the initial center of the map: -->
+<agm-map [latitude]="location.lat" [longitude]="location.lng" [(zoom)]="location.zoom" [disableDefaultUI]="true" [zoomControl]="true">
+  <agm-marker  
+    (markerClick)="clickedMarker('Union Station', 0)"
+    [latitude]="location.lat" 
+    [longitude]="location.lng"
+    iconUrl = '../../assets/Image/green-dot.png'>
+    <agm-info-window #infoWindow>
+      <strong>You are currently here by the Union Station</strong>
+    </agm-info-window>
+  </agm-marker>
+
+  <agm-marker
+  *ngFor="let m of places;" 
+  [latitude]="m.latitude"
+  [longitude]="m.longitude"
+  >
+  <agm-info-window #infoWindow>
+    <strong>Hospitals</strong>
+    <br><br>
+    <strong>Name: {{m.name}}</strong>
+    <br><br>
+    <strong>address: {{m.address1}}</strong>
+    <br><br>
+    <strong>Phone No.: {{m.display_phone}}</strong>
+  </agm-info-window>
+
+  </agm-marker>
+  <agm-circle [latitude]="location.lat" [longitude]="location.lng"
+  [(radius)]="circleRadius"
+  [fillColor]="'blue'"
+  [circleDraggable]="true"
+  [editable]="true"
+  ></agm-circle>
+</agm-map>

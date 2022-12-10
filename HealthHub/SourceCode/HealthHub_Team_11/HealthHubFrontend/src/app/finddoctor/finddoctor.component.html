@@ -1,0 +1,71 @@
+<div>
+<div class="container">
+  <div class="findDoctor">
+    <form [formGroup]="formGroup">
+      
+      <mat-form-field class="example-full-width" disableOptionCentering="true">
+        <br>
+        <br>
+        <mat-label>
+          Doctor
+        </mat-label>
+        <input formControlName="doctor" matInput type="text" [matAutocomplete]="auto" />
+        
+        <mat-autocomplete #auto="matAutocomplete">
+
+          
+          
+          <mat-option *ngFor="let item of filteredOptions" [value]="item" (click)='getValue("value")'>
+            {{item}}
+          </mat-option>
+        
+        </mat-autocomplete>
+      
+      </mat-form-field>
+  
+    </form>
+  </div>
+
+  
+  
+</div>
+ <div class="container1">
+  <table class="table table-striped table-bordered table-hover">
+    <tr style="background: rgb(74, 120, 219)">
+      <th>Id</th>
+      <th>Name</th>
+      <th>PhoneNO</th>
+      <th>Address</th>
+      
+      <th>ACTIONS</th>
+    </tr>
+    <tr *ngFor="let doc of response1">
+      <td>{{ doc.doctorId }}</td>
+      <td>{{ doc.doctorName }}</td>
+      <td>{{ doc.doctorPhoneNO }}</td>
+      <td>{{ doc.doctorAddress }}</td>
+      
+
+      <td>
+      <button style='margin-right:16px' (click)="getAppointment(doc.doctorId)"  class="btn btn-info">
+        BookAppoinment
+      </button>
+      
+      <button style='margin-right:16px' (click)="putreview(doc.doctorName)"  class="btn btn-info">
+        Write Review
+      </button>
+      <button style='margin-right:16px' (click)="getreview(doc.doctorName)"  class="btn btn-info">
+        Find Reviews
+      </button>
+
+      </td>
+    
+
+      
+    </tr> 
+
+        
+    
+  </table>
+</div>
+</div>

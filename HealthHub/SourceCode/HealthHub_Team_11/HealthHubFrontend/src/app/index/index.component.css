@@ -1,0 +1,37 @@
+.navbar-expand-lg .navbar-nav .nav-link.active-link
+{
+    color: green;
+    font-weight: bold;
+    
+}
+.container-fluid{
+    height: 70px;
+}
+.container-fluid .navbar-brand{
+        font-family :'Nosifer'; font-size: 45px;
+        color: rgb(11, 130, 235);
+        text-decoration-thickness: 50px;
+        font-display:inherit;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 80px;
+        z-index: 20;
+        font-weight: bold;
+
+}
+
+.container-fluid a {
+    list-style-type: none;
+    margin-top: -10px;
+    margin-bottom: -38px;
+    padding: 10;
+    overflow:auto;
+    float: right;
+    display:grid;
+    color: rgb(11, 130, 235);
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration: none;
+      cursor: pointer;
+    
+    }
