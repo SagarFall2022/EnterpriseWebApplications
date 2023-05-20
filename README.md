@@ -1,4 +1,4 @@
-# Health Hub Application
+# 1. Health Hub Application
 
 The Health Hub application is designed to provide users with the ability to search for nearby pharmacies and hospitals, as well as schedule appointments. It leverages a combination of technologies, including Angular for the frontend, Node.js and Spring Boot for the backend, MySQL for data storage, and MongoDB for storing doctor and hospital ratings. Additionally, the Google Maps API is integrated for displaying nearby locations, and the Yelp API is utilized for obtaining reviews, which are then stored in Elasticsearch.
 
