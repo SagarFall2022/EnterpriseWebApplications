@@ -59,7 +59,6 @@ Jupyter Notebook :
 
 Google API Key :
 We are using below api key 
-AIzaSyANho3VyRDhrNN62QJqNJrQUXyHoTqoBN4
 
 
 Elastic search
